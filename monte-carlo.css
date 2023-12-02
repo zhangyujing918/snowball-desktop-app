@@ -1,0 +1,136 @@
+.title {
+    text-align: center;
+    font-size: 24px;
+    margin-top: -10px;
+}
+.headline {
+    text-align: center;
+    font-size: 18px;
+    margin-top: -5px;
+    margin-bottom: -10px;
+}
+.required {
+    color: red;
+}
+.hidden {
+    display: none;
+}
+
+/* 按钮样式 */
+.button-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.button-group {
+    width: 180px; /* 按钮的固定宽度 */
+    margin-right: 20px; /* 固定的按钮之间的距离 */
+    font-size: 15px;
+}
+.loading-container {
+    position: relative;
+    top: 25px;
+    left: -220px;
+}
+.loading-message {
+    color: blue;
+    display: none; /* 初始时隐藏 */
+    font-size: 14px;
+}
+.spacer {
+    margin-bottom: 10px; /* 创建向下的垂直空白 */
+}
+.centered-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 路径变色按钮 */
+#knock-out, #no-knockin-no-knockout, #knock-in {
+    display: none;
+    border: none;
+    color: white;
+    padding: 5px 0px; /* 调整内边距以增加按钮的大小 */
+    cursor: pointer; /* 当鼠标悬停在按钮上时显示指针 */
+    position: absolute;
+    top: 80px; /* 调整按钮与图的距离 */
+    transform: translateX(-50%); /* 通过transform属性水平居中 */
+    width: 110px;
+    font-weight: bold;
+}
+#knock-out {
+    background-color: red;
+    left: 26%;
+}
+#no-knockin-no-knockout {
+    background-color: orange;
+    left: 49%;
+}
+#knock-in {
+    background-color: green;
+    left: 72%;
+}
+
+
+/* 敲入敲出线 */
+.dashed-line {
+    border-top: 2px dashed green; /* 定义虚线样式 */
+    position: absolute;
+    z-index: 3;
+}
+
+/* 单条路径数据统计表 */
+.stats-table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: small;
+}
+.stats-table th, .stats-table td {
+    border: 0.5px solid black; /* 将边框颜色修改为黑色 */
+    padding: 4px;
+    text-align: center;
+}
+.stats-table th {
+    font-weight: bold;
+    color: white;
+    width: 95px;
+}
+.stats-table td {
+    width: 95px;
+}
+.stats-table tr:hover:not(.header-row) {
+    background-color: #f0f7f7;
+}
+
+/* 敲出分布表 */
+.knockout-table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: small;
+    margin-top: -15px;
+}
+.knockout-table tr:hover
+{
+    background:none;
+    background-color: #f0f7f7;
+}
+.knockout-table td,
+.knockout-table th {
+    border: 0.5px solid black;
+    text-align: left;
+    padding: 4px;
+    text-align: center;
+}
+.knockout-table th:first-child,
+.knockout-table td:first-child {
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    width: 100px
+}
+.knockout-table th:not(:first-child),
+.knockout-table td:not(:first-child) {
+    width: 40px
+}

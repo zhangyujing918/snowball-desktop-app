@@ -1,0 +1,234 @@
+    /* 1. 页面整体样式 */
+    .title {
+        text-align: center;
+        font-size: 24px;
+        margin-top: 0px;
+    }
+    body {
+        /* background-image: url("../static/pic/background.jpg"); */
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-rnppepeat;
+        background-position: center center;
+        height: 1200px;
+        margin: 0;
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+    .centered-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100h;
+    }
+
+    /* 2. 滚动表格 */
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        table-layout: fixed;
+        line-height: 1.2;
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 3px;
+        text-align: right;
+        line-height: 1.2;
+    }
+    th {
+        position: sticky;
+        top: 0;
+        background-color: rgba(0, 50, 128, 1);
+        z-index: 2;
+        text-align: center;
+        color: #fff;
+        line-height: 1.2;
+    }
+    tr:hover {
+        background-color: #ebeff6;
+    }
+    .scroll-container {
+        max-height: 350px;
+        overflow-y: auto;
+        width: 70%;
+    }
+
+    /* 3. 箭头三角、虚线样式 */
+    .arrow-container {
+        position: absolute;
+        display: inline-block;
+    }
+    .arrow-triangle {
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent; /* 三角形左边 */
+        border-right: 10px solid transparent; /* 三角形右边 */
+        border-bottom: 10px solid cyan; /* 三角形底部颜色 */
+        position: absolute;
+        top: -5px; /* 与线段连接 */
+        left: -5px; /* 水平居中 */
+    }
+    .arrow-line {
+        width: 8px;
+        height: 30px;
+        background-color: cyan;
+        position: absolute;
+        top: 0;
+        left: 1px;
+    }
+    .arrow-end-triangle {
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent; /* 三角形左边 */
+        border-right: 10px solid transparent; /* 三角形右边 */
+        border-bottom: 10px solid cyan; /* 三角形底部颜色 */
+        position: absolute;
+        top: -5px; /* 与线段连接 */
+        left: -5px; /* 水平居中 */
+    }
+    .arrow-end-line {
+        width: 8px; /* 线段宽度 */
+        height: 30px; /* 线段高度 */
+        background-color: cyan; /* 线段颜色 */
+        position: absolute;
+        top: 0;
+        left: 1px;
+    }
+    .dashed-line {
+        border-top: 2px dashed green; /* 定义虚线样式 */
+        position: absolute;
+        z-index: 3;
+    }
+
+    /* 4. button group样式 */
+    .button-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .loading-container {
+        position: relative;
+        top: 30px;
+        left: -440px;
+    }
+    .loading-message {
+        color: blue;
+        display: none; /* 初始时隐藏 */
+        font-size: 14px;
+    }
+    .button-group {
+        width: 180px; /* 按钮的固定宽度 */
+        margin-right: 20px; /* 固定的按钮之间的距离 */
+    }
+    .spacer {
+        margin-bottom: 10px; /* 创建向下的垂直空白 */
+    }
+    .label-text {
+        font-size: 14px; /* 设置标签的字号 */
+    }
+    
+
+    /* 5. 数据统计表样式 */
+    .statistics-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    }
+    .hidden {
+        display: none;
+    }
+    .result-table {
+        table-layout: auto;
+    }
+    .result-table th, .result-table td {
+        text-align: center;
+        position: relative;
+        padding: 3px;
+        line-height: 1.2;
+    }
+    .result-table thead th {
+        background-color: rgba(0, 50, 128, 1);
+        color: #fff;
+        padding: 3px;
+        line-height: 1.2;
+    }
+    .result-table td:first-child:not(:first-child),
+    .result-table td:nth-child(1),
+    .result-table td:first-child:not(:first-child),
+    .result-table td:nth-child(3), 
+    .result-table td:first-child:not(:first-child),
+    .result-table td:nth-child(6) {
+        background-color: #fff;
+        font-weight: bold;
+    }
+    .result-table tr:hover {
+        background-color: transparent;
+    }
+    .result-table tr:hover > td:nth-child(-n+2) {
+        background-color: #f6e4e4;
+    }
+    .result-table tr:hover > td:nth-child(n+3) {
+        background-color: #ebeff6;
+    }
+    .line-chart {
+        width: 100%;
+        height: auto;
+    }
+
+    /* 6. DatePicker样式 */
+    .ui-datepicker {
+        font-size: 14px; /* 调整日期选择器的字体大小 */
+        width: 200px; /* 自定义宽度 */
+        border: 1px solid #fff; /* 自定义边框样式 */
+        background-color: #fff; /* 自定义背景颜色 */
+    }
+    .ui-datepicker-header {
+        background-color: #d0cdcd; /* 自定义标题栏背景颜色 */
+        padding: 5px; /* 调整标题栏内边距 */
+    }
+    .ui-datepicker-calendar {
+        background-color: #fff; /* 自定义日历表格背景颜色 */
+    }
+    .ui-datepicker-calendar .ui-datepicker-week-end {
+        background-color: #f2f2f2; /* 周末日期的背景颜色 */
+        color: black;
+    }
+    .ui-datepicker-trigger {
+        display: none; /* 隐藏默认的日期选择器图标 */
+    }
+    .ui-datepicker-prev, .ui-datepicker-next {
+        cursor: pointer; /* 鼠标指针样式 */
+        padding: 4px;
+    }
+    .ui-datepicker thead th {
+        background-color: rgb(251, 250, 250); /* 表头背景颜色 */
+        color: #000; /* 表头文本颜色 */
+    }
+    .ui-datepicker-prev:hover, .ui-datepicker-next:hover {
+        background-color: rgba(0, 50, 128, 1); /* 悬停时的背景颜色 */
+        color: #fff; /* 悬停时的文本颜色 */
+    }
+    .ui-datepicker-calendar .ui-state-default:hover {
+        background-color: rgba(0, 50, 128, 1) !important;
+        color: #fff !important;
+    }
+
+    /* 7. 敲出观察日样式 */
+    .red-dot {
+        width: 10px;
+        height: 10px;
+        background-color: rgb(255, 119, 0);
+        border-radius: 50%;
+        position: absolute;
+    }
+
+    /* 8. 灰色背景 */
+    .grey-background {
+        position: absolute;
+        top: 9%;
+        height: 31%;
+        background-color: rgba(211, 211, 211, 0.5);
+        z-index: -1;
+    }

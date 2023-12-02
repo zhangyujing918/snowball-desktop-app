@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>Backtesting</title>
+    
+    <link rel="stylesheet" href="backtesting.css">
+
+    <!-- jquery 日历插件 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.css" integrity="sha512-lCk0aEL6CvAGQvaZ47hoq1v/hNsunE8wD4xmmBelkJjg51DauW6uVdaWEJlwgAE6PxcY7/SThs1T4+IMwwpN7w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js" integrity="sha512-57oZ/vW8ANMjR/KQ6Be9v/+/h6bq9/l3f0Oc7vn6qMqyhvPd1cvKBRWWpzu0QoneImqr2SkmO4MSqU+RpHom3Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@^4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation"></script>
+</head>
+
+<body>
+    <h1 class="title">雪球期权回测结果</h1>
+    <div style="position:absolute; left:140px; top:30px">
+        <div class="button-container">
+            <div class="button-group">
+                <label for="structure" class="label-text">结构：</label>
+                <select id="structure">
+                    <option value="" selected>（请选择）</option>
+                    <option value="classic">经典</option>
+                    <option value="earlyprofit">早利</option>
+                    <option value="stepdown">降敲</option>
+                    <option value="doublestepdown">双降</option>
+                    <option value="phoenix">凤凰</option>
+                    <option value="autocall">小雪球（自动赎回）</option>
+                    <option value="put">保底</option>
+                    <option value="parachute">降落伞</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="spacer"></div>
+        <div class="button-container">
+            <div class="button-group">
+                <label for="code" class="label-text">标的代码：</label>
+                <input type="text" id="code" placeholder="如：000905.XSHG">
+            </div>
+            <div class="button-group">
+                <label for="duration" class="label-text">合约期限：</label>
+                <input type="text" id="duration" placeholder="如：12">
+            </div>
+            <div class="button-group">
+                <label for="start_ob" class="label-text">第x月开始观察：</label>
+                <input type="text" id="start_ob" placeholder="如：3">
+            </div>
+            <div class="button-group">
+                <label for="div_coupon" class="label-text">红利票息</label>
+                <input type="text" id="div_coupon" placeholder="如：0.06">
+            </div>
+            <div class="button-group">
+                <label for="ko_coupon_1" class="label-text">敲出票息</label>
+                <input type="text" id="ko_coupon_1" placeholder="如：0.016">
+            </div>
+        </div>
+
+        <div class="spacer"></div>
+        <div class="button-container">
+            <div class="button-group">
+                <label for="ki" class="label-text">敲入价格：</label>
+                <input type="text" id="ki" placeholder="如：0.8">
+            </div>
+            <div class="button-group">
+                <label for="ko" class="label-text">敲出价格：</label>
+                <input type="text" id="ko" placeholder="如：1.03">
+            </div>
+            <div class="button-group">
+                <label for="sdate" class="label-text">回测起始日：</label>
+                <input type="text" id="sdate" placeholder="如：MM/DD/YYYY">
+            </div>
+            <div class="button-group">
+                <label for="edate" class="label-text">回测截止日：</label>
+                <input type="text" id="edate" placeholder="如：MM/DD/YYYY">
+            </div>
+            <div class="button-group">
+                <label for="sd" class="label-text">降敲：</label>
+                <input type="text" id="sd" placeholder="如：0.03">
+            </div>
+        </div>
+        
+        <div class="spacer"></div>
+        <div class="button-container">
+
+            <div class="button-group">
+                <label for="ko_coupon_2" class="label-text">第二段敲出票息：</label>
+                <input type="text" id="ko_coupon_2" placeholder="如：0.06">
+            </div>
+            <div class="button-group">
+                <label for="coupon_2_period" class="label-text">第二段票息有效月份：</label>
+                <input type="text" id="coupon_2_period" placeholder="如：4">
+            </div>
+            <div class="button-group">
+                <label for="ko_coupon_3" class="label-text">第三段敲出票息：</label>
+                <input type="text" id="ko_coupon_3" placeholder="如：0.03">
+            </div>
+
+            <div class="button-group">
+                <label for="coupon_3_period" class="label-text">第三段票息有效月份：</label>
+                <input type="text" id="coupon_3_period" placeholder="如：6">
+            </div>
+        </div>
+
+        <div class="spacer"></div>
+        <div class="button-container">
+            <div class="button-group">
+                <label for="guaranteed" class="label-text">小雪球保底票息：</label>
+                <input type="text" id="guaranteed" placeholder="如：0.01">
+            </div>
+            <div class="button-group">
+                <label for="limitedloss" class="label-text">保底雪球保底线：</label>
+                <input type="text" id="limitedloss" placeholder="如：0.8">
+            </div>
+            <div class="button-group">
+                <label for="ko_parachute" class="label-text">降落伞最后一月敲出线：</label>
+                <input type="text" id="ko_parachute" placeholder="如：0.85">
+            </div>
+        </div>
+
+        <div class="spacer"></div>
+        
+        <div class="button-container">
+            <div class="button-group">
+                <button id="submit-button" class="label-text">开始回测</button>
+                <button id="toggle-table-button">隐藏统计表</button>
+            </div>
+            <div class="button-group">
+                <button id="clear-parameters-button" class="label-text">清空参数</button>
+            </div>
+            <div class="loading-container">
+                <div id="loading-message" class="loading-message">正在回测...</div>
+            </div>
+        </div>
+    </div>
+        
+        <br></br>
+        <div style="position:absolute; top:320px; left:120px; width:1000px; height:800px;">
+        <div class="centered-container">
+            <div style="height:75%;width:80%">
+                <canvas id="line-chart"></canvas>
+            </div>
+            <div style="width:75%"> 
+                <div id="statistics-container"></div>
+            </div>
+            <br></br>
+            <div class="scroll-container">
+                <table id="json-table">
+                    <thead>
+                        <tr>
+                            <th>开仓日期</th>
+                            <th>收盘价</th>
+                            <th>期权损益</th>
+                            <th>合约状态</th>
+                            <th>实际结束日期</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+
+            <div id="dashed-line"></div>
+            <div id="arrow-container"></div>
+            <div id="arrow-triangle"></div>
+            <div id="arrow-line"></div>
+            <div id="arrow-end-triangle"></div>
+            <div id="arrow-end-line"></div>
+        </div>
+
+    <script src="backtesting.js"></script>
+
+</body>
+</html>

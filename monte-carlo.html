@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+    http-equiv="Content-Security-Policy"
+    content="default-src 'self' 'unsafe-inline'; script-src 'self' http://* https://* 'unsafe-inline'"
+    />
+    <title>Monte-Carlo</title>
+
+    <link rel="stylesheet" href="monte-carlo.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@^4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation"></script>
+
+  </head>
+  <body>
+    <div style="position:absolute; top:10px;left:560px">
+        <h1 class="title">蒙特卡洛模拟</h1>
+    </div>
+
+    <div style="position:absolute; top:50px;left:140px">
+        <div class="button-container">
+            <div class="button-group">
+                <label for="ki">敲入价格<span class="required">*</span>：</label>
+                <input type="text" id="ki" placeholder="如：0.8">
+            </div>
+            <div class="button-group">
+                <label for="ko">敲出价格<span class="required">*</span>：</label>
+                <input type="text" id="ko" placeholder="如：1.03">
+            </div>
+            <div class="button-group">
+                <label for="start_ob">第x个交易日开始观察：</label>
+                <input type="text" id="start_ob" placeholder="如：63">
+            </div>
+            <div class="button-group">
+                <label for="start_sd">降敲起始日期：</label>
+                <select id="start_sd">
+                    <option value="" selected>（请选择）</option>
+                    <option value="month2">第42个交易日（第2月）</option>
+                    <option value="month3">第63个交易日（第3月）</option>
+                    <option value="month4">第84个交易日（第4月）</option>
+                    <option value="month5">第105个交易日（第5月）</option>
+                    <option value="month6">第126个交易日（第6月）</option>
+                    <option value="month7">第147个交易日（第7月）</option>
+                    <option value="month8">第168个交易日（第8月）</option>
+                    <option value="month9">第189个交易日（第9月）</option>
+                    <option value="month10">第210个交易日（第10月）</option>
+                    <option value="month11">第231个交易日（第11月）</option>
+                    <option value="month12">第252个交易日（第12月）</option>
+                </select>
+            </div>
+            <div class="button-group">
+                <label for="sd">每月降敲幅度：</label>
+                <input type="text" id="sd" placeholder="如：0.03">
+            </div>
+        </div>
+
+        <div class="spacer"></div>
+        <div class="button-container">
+            <div class="button-group">
+                <button id="submit-button">提交</button>
+                <button id="clear-parameters-button">清空</button>
+            </div>
+            <div class="loading-container">
+                <div id="loading-message" class="loading-message">计算中...</div>
+            </div>
+        </div>
+        <button id="knock-out">已敲出</button>
+        <button id="no-knockin-no-knockout">未敲入未敲出</button>
+        <button id="knock-in">敲入未敲出</button>
+    </div>
+
+    <div style="position:absolute; top:160px; left:140px; width:1000px; height:1200px;">
+        <div class="centered-container">
+            <div style="height:65%;width:70%">
+                <canvas id="PricePath"></canvas>
+            </div>
+            <div class="spacer"></div>
+            <div id="stats"></div>
+
+            <div style="position:absolute; top:530px; left:100px; width:400px; height:300px;">
+                <canvas id="koObserveDateChart" style="width:350px; height:250px"></canvas>
+            </div>
+            <div style="position:absolute; top:530px; left:500px; width:400px; height:300px;">
+                <canvas id="koPriceChart" style="width:350px; height:250px"></canvas>
+            </div>
+
+            <div style="position:absolute; top:810px;">
+            <div id="knockout-table" class="centered-container"></div>
+
+        </div>
+    </div>
+    <script src="./monte-carlo.js"></script>
+  </body>
+</html>

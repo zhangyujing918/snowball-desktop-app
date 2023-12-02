@@ -1,0 +1,1721 @@
+{
+    "parameter":
+    {
+        "structureInput": "classic",
+        "codeInput": "000905.XSHG",
+        "durationInput": 6,
+        "start_obInput": 3,
+        "div_couponInput": 0.06,
+        "ko_couponInput": 0.06,
+        "kiInput": 0.8,
+        "koInput": 1.03,
+        "sdateInput": "01/01/2022",
+        "edateInput": "12/31/2022",
+        "sdInput": "",
+        "ko_coupon2Input": 0.04,
+        "coupon2_periodInput": 3,
+        "ko_coupon3Input": "",
+        "coupon3_periodInput": "",
+        "guaranteedInput": "",
+        "limitedlossInput": "",
+        "parachuteInput": ""
+    },
+    "result":
+    {
+        "0": {
+            "start_date": 1641254400000,
+            "close": 7354.4562,
+            "payoff": -0.1130369231,
+            "state": "ki_noko",
+            "actual_end_date": 1656892800000
+        },
+        "1": {
+            "start_date": 1641340800000,
+            "close": 7222.6747,
+            "payoff": -0.0984600622,
+            "state": "ki_noko",
+            "actual_end_date": 1656979200000
+        },
+        "2": {
+            "start_date": 1641427200000,
+            "close": 7229.9601,
+            "payoff": -0.112229499,
+            "state": "ki_noko",
+            "actual_end_date": 1657065600000
+        },
+        "3": {
+            "start_date": 1641513600000,
+            "close": 7175.676,
+            "payoff": -0.1007138143,
+            "state": "ki_noko",
+            "actual_end_date": 1657152000000
+        },
+        "4": {
+            "start_date": 1641772800000,
+            "close": 7191.4511,
+            "payoff": -0.1212983149,
+            "state": "ki_noko",
+            "actual_end_date": 1657497600000
+        },
+        "5": {
+            "start_date": 1641859200000,
+            "close": 7135.2232,
+            "payoff": -0.1143738573,
+            "state": "ki_noko",
+            "actual_end_date": 1657497600000
+        },
+        "6": {
+            "start_date": 1641945600000,
+            "close": 7196.9327,
+            "payoff": -0.132758418,
+            "state": "ki_noko",
+            "actual_end_date": 1657584000000
+        },
+        "7": {
+            "start_date": 1642032000000,
+            "close": 7097.7594,
+            "payoff": -0.1168347718,
+            "state": "ki_noko",
+            "actual_end_date": 1657670400000
+        },
+        "8": {
+            "start_date": 1642118400000,
+            "close": 7081.1408,
+            "payoff": -0.1099694134,
+            "state": "ki_noko",
+            "actual_end_date": 1657756800000
+        },
+        "9": {
+            "start_date": 1642377600000,
+            "close": 7157.8593,
+            "payoff": -0.1181224113,
+            "state": "ki_noko",
+            "actual_end_date": 1658102400000
+        },
+        "10": {
+            "start_date": 1642464000000,
+            "close": 7163.1586,
+            "payoff": -0.1187748237,
+            "state": "ki_noko",
+            "actual_end_date": 1658102400000
+        },
+        "11": {
+            "start_date": 1642550400000,
+            "close": 7118.762,
+            "payoff": -0.1099984379,
+            "state": "ki_noko",
+            "actual_end_date": 1658188800000
+        },
+        "12": {
+            "start_date": 1642636800000,
+            "close": 7056.7854,
+            "payoff": -0.0915539532,
+            "state": "ki_noko",
+            "actual_end_date": 1658275200000
+        },
+        "13": {
+            "start_date": 1642723200000,
+            "close": 6976.6155,
+            "payoff": -0.0901607807,
+            "state": "ki_noko",
+            "actual_end_date": 1658361600000
+        },
+        "14": {
+            "start_date": 1642982400000,
+            "close": 6979.2456,
+            "payoff": -0.1071763544,
+            "state": "ki_noko",
+            "actual_end_date": 1658707200000
+        },
+        "15": {
+            "start_date": 1643068800000,
+            "close": 6743.9566,
+            "payoff": -0.0760267496,
+            "state": "ki_noko",
+            "actual_end_date": 1658707200000
+        },
+        "16": {
+            "start_date": 1643155200000,
+            "close": 6782.5763,
+            "payoff": -0.0699764041,
+            "state": "ki_noko",
+            "actual_end_date": 1658793600000
+        },
+        "17": {
+            "start_date": 1643241600000,
+            "close": 6605.9159,
+            "payoff": -0.0414300158,
+            "state": "ki_noko",
+            "actual_end_date": 1658880000000
+        },
+        "18": {
+            "start_date": 1643328000000,
+            "close": 6580.53,
+            "payoff": -0.0353109096,
+            "state": "ki_noko",
+            "actual_end_date": 1658966400000
+        },
+        "19": {
+            "start_date": 1644192000000,
+            "close": 6676.6122,
+            "payoff": -0.0529516451,
+            "state": "ki_noko",
+            "actual_end_date": 1659916800000
+        },
+        "20": {
+            "start_date": 1644278400000,
+            "close": 6742.1921,
+            "payoff": -0.0621633875,
+            "state": "ki_noko",
+            "actual_end_date": 1659916800000
+        },
+        "21": {
+            "start_date": 1644364800000,
+            "close": 6843.0271,
+            "payoff": -0.0732930752,
+            "state": "ki_noko",
+            "actual_end_date": 1660003200000
+        },
+        "22": {
+            "start_date": 1644451200000,
+            "close": 6840.485,
+            "payoff": -0.0757883688,
+            "state": "ki_noko",
+            "actual_end_date": 1660089600000
+        },
+        "23": {
+            "start_date": 1644537600000,
+            "close": 6745.0235,
+            "payoff": -0.0453170993,
+            "state": "ki_noko",
+            "actual_end_date": 1660176000000
+        },
+        "24": {
+            "start_date": 1644796800000,
+            "close": 6695.6958,
+            "payoff": -0.0377685169,
+            "state": "ki_noko",
+            "actual_end_date": 1660521600000
+        },
+        "25": {
+            "start_date": 1644883200000,
+            "close": 6760.2776,
+            "payoff": -0.0469608378,
+            "state": "ki_noko",
+            "actual_end_date": 1660521600000
+        },
+        "26": {
+            "start_date": 1644969600000,
+            "close": 6772.0336,
+            "payoff": -0.0453109093,
+            "state": "ki_noko",
+            "actual_end_date": 1660608000000
+        },
+        "27": {
+            "start_date": 1645056000000,
+            "close": 6768.7888,
+            "payoff": -0.0406696247,
+            "state": "ki_noko",
+            "actual_end_date": 1660694400000
+        },
+        "28": {
+            "start_date": 1645142400000,
+            "close": 6835.0217,
+            "payoff": -0.0535793617,
+            "state": "ki_noko",
+            "actual_end_date": 1660780800000
+        },
+        "29": {
+            "start_date": 1645401600000,
+            "close": 6867.1129,
+            "payoff": -0.0574379664,
+            "state": "ki_noko",
+            "actual_end_date": 1661126400000
+        },
+        "30": {
+            "start_date": 1645488000000,
+            "close": 6784.7622,
+            "payoff": -0.0459975296,
+            "state": "ki_noko",
+            "actual_end_date": 1661126400000
+        },
+        "31": {
+            "start_date": 1645574400000,
+            "close": 6887.4236,
+            "payoff": -0.0611286781,
+            "state": "ki_noko",
+            "actual_end_date": 1661212800000
+        },
+        "32": {
+            "start_date": 1645660800000,
+            "close": 6764.8756,
+            "payoff": -0.0709988961,
+            "state": "ki_noko",
+            "actual_end_date": 1661299200000
+        },
+        "33": {
+            "start_date": 1645747200000,
+            "close": 6819.4311,
+            "payoff": -0.0728411201,
+            "state": "ki_noko",
+            "actual_end_date": 1661385600000
+        },
+        "34": {
+            "start_date": 1646006400000,
+            "close": 6853.3081,
+            "payoff": -0.0792181078,
+            "state": "ki_noko",
+            "actual_end_date": 1661731200000
+        },
+        "35": {
+            "start_date": 1646092800000,
+            "close": 6874.0447,
+            "payoff": -0.1087098255,
+            "state": "ki_noko",
+            "actual_end_date": 1661990400000
+        },
+        "36": {
+            "start_date": 1646179200000,
+            "close": 6875.2404,
+            "payoff": -0.1055691231,
+            "state": "ki_noko",
+            "actual_end_date": 1662076800000
+        },
+        "37": {
+            "start_date": 1646265600000,
+            "close": 6859.5522,
+            "payoff": -0.0986807419,
+            "state": "ki_noko",
+            "actual_end_date": 1662336000000
+        },
+        "38": {
+            "start_date": 1646352000000,
+            "close": 6803.8337,
+            "payoff": -0.091299586,
+            "state": "ki_noko",
+            "actual_end_date": 1662336000000
+        },
+        "39": {
+            "start_date": 1646611200000,
+            "close": 6659.3902,
+            "payoff": -0.0537325174,
+            "state": "ki_noko",
+            "actual_end_date": 1662508800000
+        },
+        "40": {
+            "start_date": 1646697600000,
+            "close": 6429.8888,
+            "payoff": 0.03,
+            "state": "noki_noko",
+            "actual_end_date": 1662595200000
+        },
+        "41": {
+            "start_date": 1646784000000,
+            "close": 6305.6093,
+            "payoff": 0.02,
+            "state": "ko",
+            "actual_end_date": 1657497600000
+        },
+        "42": {
+            "start_date": 1646870400000,
+            "close": 6414.9402,
+            "payoff": 0.03,
+            "state": "noki_noko",
+            "actual_end_date": 1663027200000
+        },
+        "43": {
+            "start_date": 1646956800000,
+            "close": 6474.1269,
+            "payoff": 0.03,
+            "state": "noki_noko",
+            "actual_end_date": 1663027200000
+        },
+        "44": {
+            "start_date": 1647216000000,
+            "close": 6323.5779,
+            "payoff": 0.025,
+            "state": "ko",
+            "actual_end_date": 1660521600000
+        },
+        "45": {
+            "start_date": 1647302400000,
+            "close": 5964.9813,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1655251200000
+        },
+        "46": {
+            "start_date": 1647388800000,
+            "close": 6156.2714,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1655337600000
+        },
+        "47": {
+            "start_date": 1647475200000,
+            "close": 6267.5244,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1655424000000
+        },
+        "48": {
+            "start_date": 1647561600000,
+            "close": 6332.2166,
+            "payoff": 0.025,
+            "state": "ko",
+            "actual_end_date": 1660780800000
+        },
+        "49": {
+            "start_date": 1647820800000,
+            "close": 6358.943,
+            "payoff": 0.025,
+            "state": "ko",
+            "actual_end_date": 1661126400000
+        },
+        "50": {
+            "start_date": 1647907200000,
+            "close": 6358.1093,
+            "payoff": 0.025,
+            "state": "ko",
+            "actual_end_date": 1661126400000
+        },
+        "51": {
+            "start_date": 1647993600000,
+            "close": 6398.1009,
+            "payoff": 0.025,
+            "state": "ko",
+            "actual_end_date": 1661212800000
+        },
+        "52": {
+            "start_date": 1648080000000,
+            "close": 6344.115,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1656028800000
+        },
+        "53": {
+            "start_date": 1648166400000,
+            "close": 6268.2376,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1656288000000
+        },
+        "54": {
+            "start_date": 1648425600000,
+            "close": 6283.2814,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1656374400000
+        },
+        "55": {
+            "start_date": 1648512000000,
+            "close": 6253.0692,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1656460800000
+        },
+        "56": {
+            "start_date": 1648598400000,
+            "close": 6377.8744,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1656547200000
+        },
+        "57": {
+            "start_date": 1648684800000,
+            "close": 6324.9609,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1656547200000
+        },
+        "58": {
+            "start_date": 1648771200000,
+            "close": 6364.5206,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1656633600000
+        },
+        "59": {
+            "start_date": 1649203200000,
+            "close": 6356.9271,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1657065600000
+        },
+        "60": {
+            "start_date": 1649289600000,
+            "close": 6221.5908,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1657152000000
+        },
+        "61": {
+            "start_date": 1649376000000,
+            "close": 6224.1167,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1657238400000
+        },
+        "62": {
+            "start_date": 1649635200000,
+            "close": 6029.8935,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1657497600000
+        },
+        "63": {
+            "start_date": 1649721600000,
+            "close": 6126.9065,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1657584000000
+        },
+        "64": {
+            "start_date": 1649808000000,
+            "close": 6044.3263,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1657670400000
+        },
+        "65": {
+            "start_date": 1649894400000,
+            "close": 6126.4902,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1657756800000
+        },
+        "66": {
+            "start_date": 1649980800000,
+            "close": 6070.7489,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1657843200000
+        },
+        "67": {
+            "start_date": 1650240000000,
+            "close": 6074.0069,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1658102400000
+        },
+        "68": {
+            "start_date": 1650326400000,
+            "close": 6092.3963,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1658188800000
+        },
+        "69": {
+            "start_date": 1650412800000,
+            "close": 5956.9208,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1658275200000
+        },
+        "70": {
+            "start_date": 1650499200000,
+            "close": 5759.8013,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1658361600000
+        },
+        "71": {
+            "start_date": 1650585600000,
+            "close": 5740.9844,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1658448000000
+        },
+        "72": {
+            "start_date": 1650844800000,
+            "close": 5369.7171,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1658707200000
+        },
+        "73": {
+            "start_date": 1650931200000,
+            "close": 5234.0059,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1658793600000
+        },
+        "74": {
+            "start_date": 1651017600000,
+            "close": 5437.0374,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1658880000000
+        },
+        "75": {
+            "start_date": 1651104000000,
+            "close": 5418.7641,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1658966400000
+        },
+        "76": {
+            "start_date": 1651190400000,
+            "close": 5627.9021,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1659052800000
+        },
+        "77": {
+            "start_date": 1651708800000,
+            "close": 5686.7023,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1659657600000
+        },
+        "78": {
+            "start_date": 1651795200000,
+            "close": 5563.7693,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1659916800000
+        },
+        "79": {
+            "start_date": 1652054400000,
+            "close": 5608.5162,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1660003200000
+        },
+        "80": {
+            "start_date": 1652140800000,
+            "close": 5690.0868,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1660089600000
+        },
+        "81": {
+            "start_date": 1652227200000,
+            "close": 5737.8173,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1660176000000
+        },
+        "82": {
+            "start_date": 1652313600000,
+            "close": 5743.1007,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1660262400000
+        },
+        "83": {
+            "start_date": 1652400000000,
+            "close": 5796.8014,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1660521600000
+        },
+        "84": {
+            "start_date": 1652659200000,
+            "close": 5791.0809,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1660608000000
+        },
+        "85": {
+            "start_date": 1652745600000,
+            "close": 5816.3379,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1660694400000
+        },
+        "86": {
+            "start_date": 1652832000000,
+            "close": 5797.4896,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1660780800000
+        },
+        "87": {
+            "start_date": 1652918400000,
+            "close": 5838.4074,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1660867200000
+        },
+        "88": {
+            "start_date": 1653004800000,
+            "close": 5929.4882,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1661126400000
+        },
+        "89": {
+            "start_date": 1653264000000,
+            "close": 5965.7277,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1661212800000
+        },
+        "90": {
+            "start_date": 1653350400000,
+            "close": 5745.6751,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1661299200000
+        },
+        "91": {
+            "start_date": 1653436800000,
+            "close": 5844.2546,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1661385600000
+        },
+        "92": {
+            "start_date": 1653523200000,
+            "close": 5911.5607,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1661472000000
+        },
+        "93": {
+            "start_date": 1653609600000,
+            "close": 5899.915,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1661731200000
+        },
+        "94": {
+            "start_date": 1653868800000,
+            "close": 5942.8317,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1661817600000
+        },
+        "95": {
+            "start_date": 1653955200000,
+            "close": 6026.2373,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1661904000000
+        },
+        "96": {
+            "start_date": 1654041600000,
+            "close": 6023.644,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1661990400000
+        },
+        "97": {
+            "start_date": 1654128000000,
+            "close": 6078.4349,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1662076800000
+        },
+        "98": {
+            "start_date": 1654473600000,
+            "close": 6187.4441,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1662422400000
+        },
+        "99": {
+            "start_date": 1654560000000,
+            "close": 6186.5672,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1662508800000
+        },
+        "100": {
+            "start_date": 1654646400000,
+            "close": 6217.8276,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1662595200000
+        },
+        "101": {
+            "start_date": 1654732800000,
+            "close": 6130.6862,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1662681600000
+        },
+        "102": {
+            "start_date": 1654819200000,
+            "close": 6240.1032,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1663027200000
+        },
+        "103": {
+            "start_date": 1655078400000,
+            "close": 6233.6194,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1663027200000
+        },
+        "104": {
+            "start_date": 1655164800000,
+            "close": 6275.5652,
+            "payoff": 0.03,
+            "state": "noki_noko",
+            "actual_end_date": 1670976000000
+        },
+        "105": {
+            "start_date": 1655251200000,
+            "close": 6261.0613,
+            "payoff": 0.03,
+            "state": "noki_noko",
+            "actual_end_date": 1671062400000
+        },
+        "106": {
+            "start_date": 1655337600000,
+            "close": 6264.822,
+            "payoff": 0.03,
+            "state": "noki_noko",
+            "actual_end_date": 1671148800000
+        },
+        "107": {
+            "start_date": 1655424000000,
+            "close": 6316.3092,
+            "payoff": 0.03,
+            "state": "noki_noko",
+            "actual_end_date": 1671408000000
+        },
+        "108": {
+            "start_date": 1655683200000,
+            "close": 6330.3942,
+            "payoff": 0.03,
+            "state": "noki_noko",
+            "actual_end_date": 1671494400000
+        },
+        "109": {
+            "start_date": 1655769600000,
+            "close": 6277.0014,
+            "payoff": 0.03,
+            "state": "noki_noko",
+            "actual_end_date": 1671580800000
+        },
+        "110": {
+            "start_date": 1655856000000,
+            "close": 6179.57,
+            "payoff": 0.03,
+            "state": "noki_noko",
+            "actual_end_date": 1671667200000
+        },
+        "111": {
+            "start_date": 1655942400000,
+            "close": 6300.4746,
+            "payoff": 0.03,
+            "state": "noki_noko",
+            "actual_end_date": 1671753600000
+        },
+        "112": {
+            "start_date": 1656028800000,
+            "close": 6368.2827,
+            "payoff": 0.03,
+            "state": "noki_noko",
+            "actual_end_date": 1672012800000
+        },
+        "113": {
+            "start_date": 1656288000000,
+            "close": 6407.7447,
+            "payoff": 0.03,
+            "state": "noki_noko",
+            "actual_end_date": 1672099200000
+        },
+        "114": {
+            "start_date": 1656374400000,
+            "close": 6501.352,
+            "payoff": 0.03,
+            "state": "noki_noko",
+            "actual_end_date": 1672185600000
+        },
+        "115": {
+            "start_date": 1656460800000,
+            "close": 6374.2974,
+            "payoff": 0.03,
+            "state": "noki_noko",
+            "actual_end_date": 1672272000000
+        },
+        "116": {
+            "start_date": 1656547200000,
+            "close": 6454.0778,
+            "payoff": 0.03,
+            "state": "noki_noko",
+            "actual_end_date": 1672358400000
+        },
+        "117": {
+            "start_date": 1656633600000,
+            "close": 6438.5375,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "118": {
+            "start_date": 1656892800000,
+            "close": 6523.1311,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "119": {
+            "start_date": 1656979200000,
+            "close": 6511.5297,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "120": {
+            "start_date": 1657065600000,
+            "close": 6418.5453,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "121": {
+            "start_date": 1657152000000,
+            "close": 6452.9863,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "122": {
+            "start_date": 1657238400000,
+            "close": 6404.4393,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "123": {
+            "start_date": 1657497600000,
+            "close": 6319.1402,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "124": {
+            "start_date": 1657584000000,
+            "close": 6241.4793,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "125": {
+            "start_date": 1657670400000,
+            "close": 6268.4943,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "126": {
+            "start_date": 1657756800000,
+            "close": 6302.4319,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "127": {
+            "start_date": 1657843200000,
+            "close": 6196.7999,
+            "payoff": 0.02,
+            "state": "ko",
+            "actual_end_date": 1668470400000
+        },
+        "128": {
+            "start_date": 1658102400000,
+            "close": 6312.3557,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "129": {
+            "start_date": 1658188800000,
+            "close": 6335.7093,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "130": {
+            "start_date": 1658275200000,
+            "close": 6410.7088,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "131": {
+            "start_date": 1658361600000,
+            "close": 6347.5984,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "132": {
+            "start_date": 1658448000000,
+            "close": 6289.5325,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "133": {
+            "start_date": 1658707200000,
+            "close": 6231.2355,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "134": {
+            "start_date": 1658793600000,
+            "close": 6307.956,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "135": {
+            "start_date": 1658880000000,
+            "close": 6332.2327,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "136": {
+            "start_date": 1658966400000,
+            "close": 6348.1655,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "137": {
+            "start_date": 1659052800000,
+            "close": 6294.1144,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "138": {
+            "start_date": 1659312000000,
+            "close": 6347.2211,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "139": {
+            "start_date": 1659398400000,
+            "close": 6169.9961,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "140": {
+            "start_date": 1659484800000,
+            "close": 6124.3146,
+            "payoff": 0.02,
+            "state": "ko",
+            "actual_end_date": 1670198400000
+        },
+        "141": {
+            "start_date": 1659571200000,
+            "close": 6158.7346,
+            "payoff": 0.02,
+            "state": "ko",
+            "actual_end_date": 1670198400000
+        },
+        "142": {
+            "start_date": 1659657600000,
+            "close": 6270.5113,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "143": {
+            "start_date": 1659916800000,
+            "close": 6323.0746,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "144": {
+            "start_date": 1660003200000,
+            "close": 6341.4806,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "145": {
+            "start_date": 1660089600000,
+            "close": 6322.0558,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "146": {
+            "start_date": 1660176000000,
+            "close": 6439.3586,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "147": {
+            "start_date": 1660262400000,
+            "close": 6420.853,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "148": {
+            "start_date": 1660521600000,
+            "close": 6442.8093,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "149": {
+            "start_date": 1660608000000,
+            "close": 6465.1866,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "150": {
+            "start_date": 1660694400000,
+            "close": 6493.5047,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "151": {
+            "start_date": 1660780800000,
+            "close": 6468.8056,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "152": {
+            "start_date": 1660867200000,
+            "close": 6391.7159,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "153": {
+            "start_date": 1661126400000,
+            "close": 6472.6799,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "154": {
+            "start_date": 1661212800000,
+            "close": 6466.4045,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "155": {
+            "start_date": 1661299200000,
+            "close": 6284.5769,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "156": {
+            "start_date": 1661385600000,
+            "close": 6322.6961,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "157": {
+            "start_date": 1661472000000,
+            "close": 6298.3739,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "158": {
+            "start_date": 1661731200000,
+            "close": 6310.402,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "159": {
+            "start_date": 1661817600000,
+            "close": 6285.9273,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "160": {
+            "start_date": 1661904000000,
+            "close": 6155.7455,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1669766400000
+        },
+        "161": {
+            "start_date": 1661990400000,
+            "close": 6126.7685,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1669852800000
+        },
+        "162": {
+            "start_date": 1662076800000,
+            "close": 6149.4273,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1669939200000
+        },
+        "163": {
+            "start_date": 1662336000000,
+            "close": 6182.6465,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1670198400000
+        },
+        "164": {
+            "start_date": 1662422400000,
+            "close": 6291.5707,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "165": {
+            "start_date": 1662508800000,
+            "close": 6301.5644,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "166": {
+            "start_date": 1662595200000,
+            "close": 6272.5752,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "167": {
+            "start_date": 1662681600000,
+            "close": 6316.9724,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "168": {
+            "start_date": 1663027200000,
+            "close": 6300.422,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "169": {
+            "start_date": 1663113600000,
+            "close": 6249.963,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "170": {
+            "start_date": 1663200000000,
+            "close": 6107.7964,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "171": {
+            "start_date": 1663286400000,
+            "close": 5954.5037,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1671148800000
+        },
+        "172": {
+            "start_date": 1663545600000,
+            "close": 5913.1493,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1671408000000
+        },
+        "173": {
+            "start_date": 1663632000000,
+            "close": 5958.2922,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "174": {
+            "start_date": 1663718400000,
+            "close": 5978.581,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "175": {
+            "start_date": 1663804800000,
+            "close": 5965.8854,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "176": {
+            "start_date": 1663891200000,
+            "close": 5889.6019,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "177": {
+            "start_date": 1664150400000,
+            "close": 5806.3181,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1672012800000
+        },
+        "178": {
+            "start_date": 1664236800000,
+            "close": 5920.0531,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "179": {
+            "start_date": 1664323200000,
+            "close": 5769.5198,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1672185600000
+        },
+        "180": {
+            "start_date": 1664409600000,
+            "close": 5771.8812,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1672272000000
+        },
+        "181": {
+            "start_date": 1664496000000,
+            "close": 5714.0629,
+            "payoff": 0.015,
+            "state": "ko",
+            "actual_end_date": 1672358400000
+        },
+        "182": {
+            "start_date": 1665360000000,
+            "close": 5635.7109,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "183": {
+            "start_date": 1665446400000,
+            "close": 5684.5063,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "184": {
+            "start_date": 1665532800000,
+            "close": 5820.4537,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "185": {
+            "start_date": 1665619200000,
+            "close": 5830.3355,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "186": {
+            "start_date": 1665705600000,
+            "close": 5973.4389,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "187": {
+            "start_date": 1665964800000,
+            "close": 6015.5963,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "188": {
+            "start_date": 1666051200000,
+            "close": 6035.6737,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "189": {
+            "start_date": 1666137600000,
+            "close": 5972.7226,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "190": {
+            "start_date": 1666224000000,
+            "close": 5948.8621,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "191": {
+            "start_date": 1666310400000,
+            "close": 5956.8811,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "192": {
+            "start_date": 1666569600000,
+            "close": 5896.9031,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "193": {
+            "start_date": 1666656000000,
+            "close": 5869.781,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "194": {
+            "start_date": 1666742400000,
+            "close": 5971.6009,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "195": {
+            "start_date": 1666828800000,
+            "close": 5963.0037,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "196": {
+            "start_date": 1666915200000,
+            "close": 5781.7972,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "197": {
+            "start_date": 1667174400000,
+            "close": 5807.1063,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "198": {
+            "start_date": 1667260800000,
+            "close": 5941.1451,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "199": {
+            "start_date": 1667347200000,
+            "close": 5997.8038,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "200": {
+            "start_date": 1667433600000,
+            "close": 5996.7187,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "201": {
+            "start_date": 1667520000000,
+            "close": 6133.4629,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "202": {
+            "start_date": 1667779200000,
+            "close": 6141.4088,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "203": {
+            "start_date": 1667865600000,
+            "close": 6134.2564,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "204": {
+            "start_date": 1667952000000,
+            "close": 6120.8286,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "205": {
+            "start_date": 1668038400000,
+            "close": 6089.6951,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "206": {
+            "start_date": 1668124800000,
+            "close": 6138.6211,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "207": {
+            "start_date": 1668384000000,
+            "close": 6129.5129,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "208": {
+            "start_date": 1668470400000,
+            "close": 6236.3838,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "209": {
+            "start_date": 1668556800000,
+            "close": 6203.9174,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "210": {
+            "start_date": 1668643200000,
+            "close": 6217.2052,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "211": {
+            "start_date": 1668729600000,
+            "close": 6191.6477,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "212": {
+            "start_date": 1668988800000,
+            "close": 6189.7092,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "213": {
+            "start_date": 1669075200000,
+            "close": 6125.3999,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "214": {
+            "start_date": 1669161600000,
+            "close": 6115.6049,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "215": {
+            "start_date": 1669248000000,
+            "close": 6120.0659,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "216": {
+            "start_date": 1669334400000,
+            "close": 6087.8591,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "217": {
+            "start_date": 1669593600000,
+            "close": 6055.2843,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "218": {
+            "start_date": 1669680000000,
+            "close": 6163.8214,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "219": {
+            "start_date": 1669766400000,
+            "close": 6156.1465,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "220": {
+            "start_date": 1669852800000,
+            "close": 6186.1021,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "221": {
+            "start_date": 1669939200000,
+            "close": 6168.0127,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "222": {
+            "start_date": 1670198400000,
+            "close": 6215.1244,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "223": {
+            "start_date": 1670284800000,
+            "close": 6211.2515,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "224": {
+            "start_date": 1670371200000,
+            "close": 6204.0051,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "225": {
+            "start_date": 1670457600000,
+            "close": 6186.2835,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "226": {
+            "start_date": 1670544000000,
+            "close": 6192.3009,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "227": {
+            "start_date": 1670803200000,
+            "close": 6154.8092,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "228": {
+            "start_date": 1670889600000,
+            "close": 6121.6615,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "229": {
+            "start_date": 1670976000000,
+            "close": 6096.3856,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "230": {
+            "start_date": 1671062400000,
+            "close": 6101.8787,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "231": {
+            "start_date": 1671148800000,
+            "close": 6072.8627,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "232": {
+            "start_date": 1671408000000,
+            "close": 5936.4751,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "233": {
+            "start_date": 1671494400000,
+            "close": 5878.0314,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "234": {
+            "start_date": 1671580800000,
+            "close": 5845.835,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "235": {
+            "start_date": 1671667200000,
+            "close": 5779.0555,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "236": {
+            "start_date": 1671753600000,
+            "close": 5763.3458,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "237": {
+            "start_date": 1672012800000,
+            "close": 5843.2555,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "238": {
+            "start_date": 1672099200000,
+            "close": 5885.6622,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "239": {
+            "start_date": 1672185600000,
+            "close": 5862.0967,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "240": {
+            "start_date": 1672272000000,
+            "close": 5857.4021,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        },
+        "241": {
+            "start_date": 1672358400000,
+            "close": 5864.4669,
+            "payoff": null,
+            "state": "active_noki",
+            "actual_end_date": null
+        }
+    }
+
+}

@@ -1,0 +1,41 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing</title>
+
+  <link rel="stylesheet" href="pricing.css">
+  <script src='https://cdn.plot.ly/plotly-2.27.0.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js'></script>
+</head>
+
+<body>
+  <div style="position:absolute; top:0px;left:560px">
+      <h1 class="title">雪球定价</h1>
+  </div>
+  <button id="knock-in" style="position:absolute; top:530px;left:850px;width:70px;">KI</button>
+  <button id="double-no-touch" style="position:absolute; top:530px;left:950px;width:70px;">DNT</button>
+  <button id="knock-out" style="position:absolute; top:530px;left:1050px;width:70px;">KO</button>
+  <button id="snb" style="position:absolute; top:530px;left:1150px;width:70px;">SNB</button>
+
+  <div id="button-container" class="button-grid" style="position:absolute;top:570px;left:800px;width:400px;"></div>
+  
+
+  <div id='3DPlot'  style="position:absolute; top:70px;left:780px"></div>
+  <div class='headline' style="position:absolute; top:60px;left:330px">敲出观察前</div>
+  <div class='headline' style="position:absolute; top:270px;left:330px">敲出观察后</div>
+  <div id='KIPlotPrev'  style="position:absolute; top:80px;left:0px;width:250px;height:200px;"></div>
+  <div id='DNTPlotPrev' style="position:absolute; top:80px;left:250px;width:250px;height:200px;"></div>
+  <div id='OUTPlotPrev' style="position:absolute; top:80px;left:500px;width:250px;height:200px;"></div>
+  
+  <div id='KIPlotNext'  style="position:absolute; top:290px;left:0px;width:250px;height:200px;"></div>
+  <div id='DNTPlotNext' style="position:absolute; top:290px;left:250px;width:250px;height:200px;"></div>
+  <div id='OUTPlotNext' style="position:absolute; top:290px;left:500px;width:250px;height:200px;"></div>
+
+  <div id="combine" style="position:absolute; top:470px;left:5px;width:350px;height:300px"></div>
+
+  <div class='headline' style="position:absolute; top:470px;left:530px">雪球价值分解</div>
+  <div id="price-decompose"  style="position:absolute; top:490px;width:400px;left:370px;"></div>
+  <script src="pricing.js"></script>
+
+  
+</body>
